@@ -30,7 +30,7 @@ CameraClass::listResolutions() const
   camera_sensor_info_t* info = esp_camera_sensor_get_info(&sensor->id);
   if (info == nullptr) {
     return ResolutionList();
-  }
+  } 
 
   return ResolutionList(info->max_size + 1);
 }

@@ -28,7 +28,7 @@ Config::Config()
   m_cfg->pixel_format = PIXFORMAT_RGB565;
   m_cfg->frame_size = FRAMESIZE_QQVGA;
   m_cfg->fb_count = 2;
-  m_cfg->grab_mode = CAMERA_GRAB_LATEST;
+ // m_cfg->grab_mode = CAMERA_GRAB_LATEST;
 }
 
 Config::~Config()

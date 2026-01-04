@@ -1,29 +1,64 @@
 {
-  "configurations": [
-    {
-      "browse": {
-        "databaseFilename": "${default}",
-        "limitSymbolsToIncludedHeaders": false
-      },
-      "includePath": [
-        "/home/ibrahim/install/micro_ros_agent/include/**",
-        "/home/ibrahim/install/micro_ros_msgs/include/**",
-        "/opt/ros/humble/include/**",
-        "/home/ibrahim/mros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/include/**",
-        "/home/ibrahim/robotisim_ws/src/drive_turtlesim/include/**",
-        "/home/ibrahim/ros2_ws/src/cpp_pkg/include/**",
-        "/home/ibrahim/ros_packages/basic/include/**",
-        "/home/ibrahim/ros_packages/jani_bot/include/**",
-        "/home/ibrahim/running_ws/src/mobile_robotics_ROS2/turtlebot3_simulations/turtlebot3_gazebo/include/**",
-        "/home/ibrahim/src/uros/micro-ROS-Agent/micro_ros_agent/include/**",
-        "/usr/include/**"
-      ],
-      "name": "ROS",
-      "intelliSenseMode": "gcc-x64",
-      "compilerPath": "/usr/bin/gcc",
-      "cStandard": "gnu11",
-      "cppStandard": "c++14"
-    }
-  ],
-  "version": 4
+    "configurations": [
+        {
+            "browse": {
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/cores/esp32",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/variants/esp32",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_wifi/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_event/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/dio_qspi/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/port/xtensa/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rom/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rom/include/linux",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/esp32/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_system/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_timer/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/heap/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_netif/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_eth/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/tcpip_adapter/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/lwip/src/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/port/esp32/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/include/apps",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/wifi_provisioning/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/protocomm/include/common",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/protocomm/include/security",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/log/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/driver/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/spi_flash/include",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc",
+                "C:/Users/vladimir.harbich/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/nghttp/port/include",
+                "${workspaceFolder}/Text Recognition/lib/esp32cam-main/src",
+                "${workspaceFolder}/Text Recognition/.pio/libdeps/esp32cam/esp32-camera/driver/include",
+                "${workspaceFolder}/Text Recognition/.pio/libdeps/esp32cam/esp32-camera/conversions/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "msvc-x64",
+            "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14",
+            "compilerPathInCppPropertiesJson": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe",
+            "mergeConfigurations": false,
+            "recursiveIncludes": {}
+        }
+    ],
+    "version": 4
 }
